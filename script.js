@@ -23,5 +23,3 @@ window.onload = function proceed() {
 		}
 	}
 }
-
-proceed();
