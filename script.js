@@ -16,14 +16,10 @@ window.onload = function proceed() {
 		}
 		else
 		{
-			var Inputdump = input;
-			
-			
 			document.getElementById("box").style.visibility = "visible";
 			document.getElementById("greet").style.visibility = "visible";
 			
-			document.getElementById("greet").innerHTML = "Hello "+Inputdump+", how are you?";
-			console.log(input);
+			document.getElementById("greet").innerHTML = "Hello "+input+", how are you?";
 		}
 	}
 }
